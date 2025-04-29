@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    tools:context=".AddListingActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_input"
+        android:id="@+id/model"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner name"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_input"
+        android:id="@+id/ownerName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"
+        android:hint="License"
+        android:background="@drawable/rounded_input"
+        android:id="@+id/license"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"
+        android:inputType="numberDecimal"
+        android:hint="Price (Number only)"
+        android:background="@drawable/rounded_input"
+        android:id="@+id/price"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"
+        android:hint="Image URL"
+        android:background="@drawable/rounded_input"
+        android:id="@+id/imageUrl"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="City"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_input"
+        android:id="@+id/city"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Address"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_input"
+        android:id="@+id/address"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:id="@+id/buttonSubmit"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:id="@+id/buttonCancel"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:layout_marginTop="16dp"
+        android:textColor="#FF0000"/>
+
+</LinearLayout>

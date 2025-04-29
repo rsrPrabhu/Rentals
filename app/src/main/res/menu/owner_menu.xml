@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mi_add_listing"
+        android:title="Add Listing"/>
+    <item
+        android:id="@+id/mi_my_listing"
+        android:title="My Listing"/>
+    <item
+        android:id="@+id/mi_log_out"
+        android:title="Logout"/>
+</menu>
